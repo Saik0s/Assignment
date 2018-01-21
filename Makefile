@@ -1,9 +1,10 @@
 .PHONY: all
-all: test
+all: dependencies test
 
 .PHONY: dependencies
 dependencies:
 	bundle install
+	bundle exec pod install
 
 .PHONY: test
 test:
