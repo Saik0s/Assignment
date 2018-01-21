@@ -3,11 +3,11 @@ all: test
 
 .PHONY: dependencies
 dependencies:
-	echo "dependencies"
+	bundle install
 
 .PHONY: test
 test:
-	echo "tests"
+	bundle exec fastlane tests
 
 .PHONY: build
 build:

@@ -213,3 +213,4 @@ Session.vim
 # Auto-generated tag files
 tags
 .idea/template/
+test_output/
