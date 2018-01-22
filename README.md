@@ -1,14 +1,18 @@
 # Assignment
 
+<h3 align="center">
+  :construction:Under Development:construction:
+</h3>
+
 You are required to create simple app which retrieves a list of users from our api and display the users in a list. The list should display the firstname, lastname and profile picture of each user. You should be able to open second screen which displays the additional user information and you should also be able to remove a user from the list.
 
 Requirements:
-• Make a http request to retrieve the users.
-• Decode the user objects.
-• Display the users in a list ordered alphabetically (lastname).
-• Display the user's profile picture in the list.
-• Open user details in a second screen by pressing on a user.
-• Remove a user from the list. (Local only)
+* Make a http request to retrieve the users.
+* Decode the user objects.
+* Display the users in a list ordered alphabetically (lastname).
+* Display the user's profile picture in the list.
+* Open user details in a second screen by pressing on a user.
+* Remove a user from the list. (Local only)
 
 ## Getting Started
 
