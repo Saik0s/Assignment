@@ -1,7 +1,4 @@
 PODS:
-  - Action (3.5.0):
-    - RxCocoa (~> 4.0)
-    - RxSwift (~> 4.0)
   - Alamofire (4.6.0)
   - IGListKit (3.0.0):
     - IGListKit/Default (= 3.0.0)
@@ -9,23 +6,13 @@ PODS:
     - IGListKit/Diffing
   - IGListKit/Diffing (3.0.0)
   - lottie-ios (2.1.5)
-  - Moya (10.0.1):
-    - Moya/Core (= 10.0.1)
-  - Moya/Core (10.0.1):
-    - Alamofire (~> 4.1)
-    - Result (~> 3.0)
-  - Moya/RxSwift (10.0.1):
-    - Moya/Core
-    - RxSwift (~> 4.0)
-  - MoyaSugar/Core (1.1.0):
-    - Moya (>= 10.0.0)
-  - MoyaSugar/RxSwift (1.1.0):
-    - Moya/RxSwift (>= 10.0.0)
-    - MoyaSugar/Core
-    - RxSwift (>= 4.0.0)
   - NSObject+Rx (4.2.0):
     - RxSwift (~> 4.0)
-  - Result (3.2.4)
+  - RxAlamofire (4.0.0):
+    - RxAlamofire/Core (= 4.0.0)
+  - RxAlamofire/Core (4.0.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4.0)
   - RxCocoa (4.1.1):
     - RxSwift (~> 4.0)
   - RxOptional (3.3.0):
@@ -43,31 +30,26 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
-  - Action
   - lottie-ios
-  - MoyaSugar/RxSwift
   - NSObject+Rx
-  - RxCocoa
+  - RxAlamofire
   - RxOptional
   - RxSwift
   - RxSwiftExt/RxCocoa
   - Texture/IGListKit
 
 SPEC CHECKSUMS:
-  Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
   lottie-ios: 836cdbba92f62f3c6a00e37a4ce485321fe317cf
-  Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
-  MoyaSugar: b64e677454f1a4b3745e1c5b16e1c9d1b109d04f
   NSObject+Rx: cbbc05e3cb3ad446cdbced3e00e39c9efaf02925
-  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxAlamofire: 6ea579ac53bf14cb4bc7049a3866e5a769989b1d
   RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
   RxOptional: e5448d3e21024489e07c31f6a262f2b50c975367
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
   RxSwiftExt: a9b9c8e94be009146707f9fcb16eaf3cc1f3910c
   Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
 
-PODFILE CHECKSUM: 53787f262a1e6cd81ac86b9d57b247f8ef609faa
+PODFILE CHECKSUM: 6e6343552a78481413b364c4fbf0a677570122f8
 
 COCOAPODS: 1.4.0

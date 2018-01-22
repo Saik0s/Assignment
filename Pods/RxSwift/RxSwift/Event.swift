@@ -1,5 +1,5 @@
 //
-//  Event.swift
+//  User.swift
 //  RxSwift
 //
 //  Created by Krunoslav Zaher on 2/8/15.
