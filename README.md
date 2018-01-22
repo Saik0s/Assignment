@@ -22,12 +22,6 @@ Just run this command in the project root folder:
 make
 ```
 
-## Running the tests
-
-```
-make test
-```
-
 ## Versioning
 
 I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](/https://github.com/Saik0s/Assignment/tags).
